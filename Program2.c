@@ -1,0 +1,15 @@
+//Print an entered value in Decimal, Octal and Hexadecimal format.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a;
+    scanf("%d",&a);
+    printf("%d\n",a);
+    printf("%o\n",a);
+    printf("%x\n",a);
+    printf("%X",a);
+    return 0;
+}
